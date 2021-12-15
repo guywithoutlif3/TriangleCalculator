@@ -36,6 +36,7 @@ export default function Sin() {
         angleA: null,
         angleB: null,
         angleC: null,
+        error: error1
       },
     ]);
   };

@@ -73,7 +73,7 @@ export default function List() {
                                 </p>
                               </Then>
                             </If>
-                            <If condition={e.angleA !== null}>
+                            <If condition={e.angleA !== null && e.error == ""}>
                               <Then>
                                 <p>
                                   <strong>Winkel A: </strong>

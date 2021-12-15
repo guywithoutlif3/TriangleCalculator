@@ -295,7 +295,7 @@ export default function Winkel() {
                         ) *
                         (180 / Math.PI);
                       setAngleB(result);
-                      setAngleB(180 - result - angleA);
+                      setAngleC(180 - result - angleA);
                       setSolution(result);
                       window.location.reload(false);
                     }}
@@ -372,7 +372,7 @@ export default function Winkel() {
                         ) *
                         (180 / Math.PI);
                       setAngleB(result);
-                      setAngleB(180 - result - angleC);
+                      setAngleC(180 - result - angleC);
                       setSolution(result);
                       window.location.reload(false);
                     }}

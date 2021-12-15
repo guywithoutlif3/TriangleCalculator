@@ -38,6 +38,7 @@ export default function Height() {
         angleA: null,
         angleB: null,
         angleC: null,
+        error: error1
       },
     ]);
   };
