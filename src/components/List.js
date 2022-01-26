@@ -87,6 +87,18 @@ export default function List() {
                                   <strong>Winkel C: </strong>
                                   {e.angleC}
                                 </p>
+                                <p>
+                                  <strong>Seite A: </strong>
+                                  {e.sideA}
+                                </p>
+                                <p>
+                                  <strong>Seite B: </strong>
+                                  {e.sideB}
+                                </p>
+                                <p>
+                                  <strong>Seite C: </strong>
+                                  {e.sideC}
+                                </p>
                               </Then>
                             </If>
                             <If condition={e.error !== ""}>

@@ -9,6 +9,7 @@ import List from "./List.js"
 import Sin from "./Sin.js"
 import Cos from "./Cos.js"
 import Tan from "./Tan.js"
+import Sides from "./Sides.js"
 
 import Logo from "../logo.jpg";
 function App() {
@@ -47,6 +48,7 @@ function App() {
                 <option value="Sin">Sin</option>
                 <option value="Cos">Cos</option>
                 <option value="Tan">Tan</option>
+                <option value="Sides">Sides</option>
               </Form.Select>
             </Col>
           </Row>
@@ -74,6 +76,9 @@ function App() {
           </Case>
           <Case condition={calcType === "Tan"}>
             <Tan />
+          </Case>
+          <Case condition={calcType === "Sides"}>
+            <Sides />
           </Case>
 
           <Default>
